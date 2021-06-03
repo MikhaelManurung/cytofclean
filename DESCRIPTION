@@ -2,7 +2,7 @@ Package: cytofclean
 Type: Package
 Title: Automatically Cleans Mass Cytometry (CyTOF) FCS files
 Version: 1.0.3
-Date: 2020-09-17
+Date: 2021-06-03
 Authors@R: c(
   person("Jimbo", "Mahoney", role = c("aut")),
   person("Mikhael", "Manurung", email = "mikhael.manurung@gmail.com", role = "cre"))
@@ -11,7 +11,7 @@ Description:
     A simple program that takes (normalised) FCS files from a CyTOF v3 (Helios) and automatically gates the data based
     on the Gaussian parameters and optimal bead Channel (EQ beads). The resulting files, containing only cells, will be much 
     smaller and can thus be uploaded to Cytobank more quickly / take up less space or analysed in FlowJo / FCS Express etc.
-License: GPL (>= 3)
+License: MIT + file LICENSE
 URL: https://github.com/JimboMahoney/cytofclean
 BugReports: https://github.com/JimboMahoney/cytofclean/issues
 Encoding: UTF-8
